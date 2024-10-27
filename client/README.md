@@ -1,32 +1,52 @@
-# BMS
+# 🌐 Client for Business Management System
 
-## Project setup
-```
-npm install
-```
+This is the client-side application of the Business Management System, built with React. It provides a user-friendly interface for managing business operations, including customer orders, inventory, and reports.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 🚀 Features
+- **User Authentication**: Secure login and registration for users.
+- **Dashboard**: Overview of key metrics and business performance.
+- **Inventory Management**: Browse and manage inventory items.
+- **Customer Orders**: Easy access for customers to view products and place orders.
+- **Reports**: Generate and view reports related to sales and inventory.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 🛠️ Technologies
+- **Vue**: For building the user interface.
+- **React Router**: For routing and navigation.
+- **Axios**: For making HTTP requests to the server.
+- **Vuex**: For state management.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 📦 Installation
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+To run the client-side application locally, follow these steps:
 
-### If want to create new branch
-```
-git remote add origin https://github.com/fore-sight-tech/bms.git
-git branch -M branch-name
-git push -u origin branch-name
-```
+1. **Navigate to the client directory**:
+    ```bash
+    cd client
+    ```
 
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Run the application**:
+    ```bash
+    npm run serve
+    ```
+
+4. **Access the Client**:
+    The application will be available at `http://localhost:8081`.
+
+## 📝 Usage
+- Navigate to the login page to access the application.
+- After logging in, you can manage inventory, process customer orders, and generate reports.
+
+## 🤝 Contributing
+Contributions are welcome! Please follow the same steps as outlined in the main project README for contributing.
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+For any questions or feedback, please reach out to:
+- **Earlmond Ross** - [mondreal777](https://github.com/Mondreal777)
