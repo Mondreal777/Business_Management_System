@@ -30,7 +30,7 @@ A comprehensive solution designed to manage and streamline various aspects of bu
 
 ## 🛠️ Technologies
 The Business Management System is built with the following technologies:
-- **Frontend**: React, HTML, CSS, JavaScript
+- **Frontend**: VueJS, HTML, CSS, JavaScript, Buefy
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL 
 - **Authentication**: JSON Web Tokens (JWT)
