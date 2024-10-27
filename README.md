@@ -105,14 +105,6 @@ To run this project locally, follow these steps:
 ## 📸 Screenshots
 
 ![Collage](screenshots/collage.png)
-![Menu](screenshots/menu.png)
-![Cart](screenshots/cart.png)
-![Checkout](screenshots/checkout.png)
-![Order Recieved](screenshots/orderecieved.png)
-![Payment](screenshots/payment.png)
-![Dashboard](screenshots/dashboard.png)
-![Inventory Management](screenshots/inventory.png)
-![Sales Report](screenshots/sales.png)
 
 
 ## 🤝 Contributing
