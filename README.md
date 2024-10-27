@@ -104,7 +104,7 @@ To run this project locally, follow these steps:
 
 ## 📸 Screenshots
 
-![Dine Options](screenshots/dine.png)
+![Collage](screenshots/collage.png)
 ![Menu](screenshots/menu.png)
 ![Cart](screenshots/cart.png)
 ![Checkout](screenshots/checkout.png)
