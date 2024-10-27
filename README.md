@@ -61,9 +61,17 @@ To run this project locally, follow these steps:
 4. **Configure Environment Variables**:
     Create a `.env` file in the `server` directory with the following content:
     ```
-    PORT=5000
-    MONGODB_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
+    environment=development
+    productionMode=false
+
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASSWORD=root
+    DB_NAME=online_pos
+    DB_PORT=3306
+    TIMEZONE=utc
+
+    SERVER_NAME=http://localhost:8085
     ```
 
 5. **Run the Application**:
