@@ -1,0 +1,9 @@
+{
+	"id": 24,
+	"oojeema_billing_id": "BILL0000000001",
+	"payment_response": null,
+	"request_id": "a9567e6f6ba9e",
+	"gross_amount": "1008.00",
+	"status": "P",
+	"created_date": "2022-02-28T03:46:26.000Z"
+}

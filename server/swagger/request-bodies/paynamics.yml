@@ -1,0 +1,81 @@
+components:
+  requestBodies:
+    PayBody:
+      description: A JSON object containing the billing details for the payer
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              billingDetails:
+                type: object
+                properties:
+                  netAmount:
+                    type: integer
+                    description: Net amount of payment. (without tax)
+                    example: 900.00
+                  taxAmount:
+                    type: integer
+                    description: Tax value for the transaction
+                    example: 108.00
+                  firstName:
+                    type: string
+                    description: Payer first name
+                    example: Danny
+                  lastName:
+                    type: string
+                    description: Payer last name
+                    example: Guerzon
+                  clientip:
+                    type: string
+                    description: Public IP address of payer
+                    example: 127.0.0.1
+                  address:
+                    type: string
+                    description: Full address of payer
+                    example: Tower One & Exchange Plaza, Ayala Triangle, Ayala Avenue, Makati City, Metro Manila 1226
+                  email:
+                    type: string
+                    example: danielle@fore-sight.tech
+                  mobile:
+                    type: string
+                    example: 09123456789
+                  items:
+                    type: array
+                    items:
+                      type: object
+                      description: Items to pay
+                      properties:
+                        item_code:
+                          type: string
+                          description: Item specific code
+                          example: ITEM001
+                        item_name:
+                          type: string
+                          description: Name of item/s to be payed
+                          example: Item One
+                        item_quantity:
+                          type: integer
+                          description: Number of items
+                          example: 1
+                        item_price:
+                          type: integer
+                          description: Item unit price
+                          example: 500.00
+                        item_tax:
+                          type: integer
+                          description: Item unit tax
+                          example: 60.00
+    PostProcessBody:
+      description: A url encoded form contains return data of paynamics
+      required: true
+      content:
+        application/x-www-form-urlencoded:
+          schema:
+            type: object
+            properties:
+              paymentresponse:
+                type: string
+                description: Payment Response
+                example: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U2VydmljZVJlc3BvbnNlV1BGIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPjxhcHBsaWNhdGlvbj48bWVyY2hhbnRpZD4wMDAwMDAxNjEwMjE2MjVDMUI2QzwvbWVyY2hhbnRpZD48cmVxdWVzdF9pZD44NjEyNWY4YzhjYWIwPC9yZXF1ZXN0X2lkPjxyZXNwb25zZV9pZD4yMDk4NTU3Nzc3NjI1NDQ2MzE4MzwvcmVzcG9uc2VfaWQ+PHRpbWVzdGFtcD4yMDIyLTAxLTI0VDE4OjAxOjMxLjAwMDAwMCswODowMDwvdGltZXN0YW1wPjxyZWJpbGxfaWQgLz48c2lnbmF0dXJlPjRkMmY3M2I0OGU2NDVjNDhhODg5ODA4YjU3ODdlYzQwZDliYjQ3YmM4MmY0YzZkNDU1NmU4NzNiMjE4MmVmNmM4OTA3MmFlN2IxZDhmODg1N2E0OTczZGY5MjY1MjU3ZjFkNTkxMjlmMDk3ZTI4ZjJjNmFiNTEyNGY3ZjI4OTFmPC9zaWduYXR1cmU+PHB0eXBlPnVicG9ubGluZTwvcHR5cGU+PC9hcHBsaWNhdGlvbj48cmVzcG9uc2VTdGF0dXM+PHJlc3BvbnNlX2NvZGU+R1IwMDE8L3Jlc3BvbnNlX2NvZGU+PHJlc3BvbnNlX21lc3NhZ2U+VHJhbnNhY3Rpb24gU3VjY2Vzc2Z1bDwvcmVzcG9uc2VfbWVzc2FnZT48cmVzcG9uc2VfYWR2aXNlPlRyYW5zYWN0aW9uIGlzIGFwcHJvdmVkPC9yZXNwb25zZV9hZHZpc2U+PHByb2Nlc3Nvcl9yZXNwb25zZV9pZD5VQjEyODk5PC9wcm9jZXNzb3JfcmVzcG9uc2VfaWQ+PHByb2Nlc3Nvcl9yZXNwb25zZV9hdXRoY29kZSAvPjwvcmVzcG9uc2VTdGF0dXM+PHN1Yl9kYXRhIC8+PHRyYW5zYWN0aW9uSGlzdG9yeT48dHJhbnNhY3Rpb24gLz48L3RyYW5zYWN0aW9uSGlzdG9yeT48L1NlcnZpY2VSZXNwb25zZVdQRj4=

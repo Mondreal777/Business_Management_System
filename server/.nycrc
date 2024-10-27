@@ -1,0 +1,12 @@
+{
+  "exclude": [
+    "config/**",
+    "db-queries/**",
+    "routes/**",
+    "test/unit/**",
+    "util/**",
+    "validators/**",
+    "server.js",
+    "routes.js"
+  ]
+}

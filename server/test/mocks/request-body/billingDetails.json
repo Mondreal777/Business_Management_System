@@ -1,0 +1,28 @@
+{
+    "billingDetails": {
+	    "netAmount": 900.00,
+        "taxAmount": 108.00,
+	    "firstName": "Danny",
+        "lastName": "Guerzon",
+        "clientIp": "127.0.0.1",
+        "address": "Tower One & Exchange Plaza, Ayala Triangle, Ayala Avenue, Makati City, Metro Manila 1226",
+        "email": "danielle@fore-sight.tech",
+        "mobile": "09773638041",
+        "items": [
+            {
+                "item_code": "ITEM001",
+                "item_name": "Item One",
+                "item_quantity": 1,
+                "item_price": 500.00,
+                "item_tax": 60.00
+            },
+            {
+                "item_code": "ITEM001",
+                "item_name": "Item Two",
+                "item_quantity": 2,
+                "item_price": 200.00,
+                "item_tax": 48.00
+            }
+        ]
+    }
+}

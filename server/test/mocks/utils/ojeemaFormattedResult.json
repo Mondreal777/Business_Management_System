@@ -1,0 +1,42 @@
+{
+    "status": 200,
+    "results": {
+        "status": {
+            "code": 2003001,
+            "message": "Successfully get billing details from ojeema."
+        },
+        "data": {
+            "billingId": "QklMTDAwMDAwMDAwMDI=",
+            "details": {
+                "companycode": "CID",
+                "billing_no": "BILL0000000002",
+                "transactiondate": "2021-12-14",
+                "duedate": "2021-12-21",
+                "customer_code": "CUS0001",
+                "customer_name": "Ayala Land Inc",
+                "customer_first_name": "Zoe",
+                "customer_last_name": "Ayala",
+                "customer_email": "billing@ayalaland.com.ph",
+                "customer_mobile": "0790-838-82__",
+                "customer_address": "Tower One & Exchange Plaza, Ayala Triangle, Ayala Avenue, Makati City, Metro Manila 1226",
+                "referenceno": "CUS001-12022021",
+                "remarks": "remarks",
+                "status": "Unpaid",
+                "net_amount": "3000.00",
+                "tax_amount": "360.00",
+                "gross_amount": "3360.00",
+                "vat_sales": "3000.00"
+            },
+            "items": [
+                {
+                    "item_code": "ITEM001",
+                    "item_name": "Item One",
+                    "item_quantity": "3.00",
+                    "item_price": "1000.00",
+                    "item_tax": "360.00",
+                    "item_amount": "3000.00"
+                }
+            ]
+        }
+    }
+}

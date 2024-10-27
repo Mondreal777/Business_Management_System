@@ -1,0 +1,85 @@
+components:
+  schemas:
+    ojeema:
+      type: object
+      properties:
+        billingId:
+          type: string
+          example: "QklMsgsAGDGg="
+        details:
+          type: object
+          properties:
+            companycode:
+              type: string
+              example: CID
+            billing_no:
+              type: string
+              example: BILL001
+            transactiondate:
+              type: string
+              example: "2021-02-14"
+            duedate:
+              type: string
+              example: "2021-02-18"
+            customer_name:
+              type: string
+              example: Ayala Land Inc.
+            customer_first_name:
+              type: string
+              example: Zoe
+            customer_last_name:
+              type: string
+              example: Ayala
+            customer_email:
+              type: string
+              example: BILL001
+            customer_mobile:
+              type: string
+              example: "09123456789"
+            customer_address:
+              type: string
+              example: "Wawandue, Subic, Zambales"
+            referenceno:
+              type: string
+              example: "CUS001"
+            remarks:
+              type: string
+              example: "remarks"
+            status:
+              type: string
+              example: "Unpaid"
+            net_amount:
+              type: string
+              example: "3000.00"
+            tax_amount:
+              type: string
+              example: "360.00s"
+            gross_amount:
+              type: string
+              example: "3360.00"
+            vat_sales:
+              type: string
+              example: "3000.00"
+            items:
+              type: array
+              items:
+                type: object
+                properties:
+                  item_code:
+                    type: string
+                    example: ITEM0001
+                  item_name:
+                    type: string
+                    example: ITEM One
+                  item_quantity:
+                    type: string
+                    example: "3.00"
+                  item_price:
+                    type: string
+                    example: "1000.00"
+                  item_tax:
+                    type: string
+                    example: "360.00"
+                  item_amount:
+                    type: string
+                    example: "3000.00"

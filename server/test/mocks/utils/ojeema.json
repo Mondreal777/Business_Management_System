@@ -1,0 +1,45 @@
+{
+    "success": true,
+    "billing_id": "QklMTDAwMDAwMDAwMDE=",
+    "data": {
+        "header": {
+            "companycode": "CID",
+            "billing_no": "BILL0000000001",
+            "transactiondate": "2021-11-25",
+            "duedate": "2021-12-02",
+            "customer_code": "CUS0001",
+            "customer_name": "Ayala Land Inc",
+            "customer_first_name": "Zoe",
+            "customer_last_name": "Ayala",
+            "customer_email": "billing@ayalaland.com.ph",
+            "customer_mobile": "0790-838-82__",
+            "customer_address": "Tower One & Exchange Plaza, Ayala Triangle, Ayala Avenue, Makati City, Metro Manila 1226",
+            "referenceno": "abc123",
+            "remarks": "",
+            "status": "Unpaid",
+            "net_amount": "900.00",
+            "tax_amount": "108.00",
+            "gross_amount": "1008.00",
+            "vat_sales": "900.00"
+        },
+        "items": [
+            {
+                "item_code": "ITEM001",
+                "item_name": "Item One",
+                "item_quantity": "1.00",
+                "item_price": "500.00",
+                "item_tax": "60.00",
+                "item_amount": "500.00"
+            },
+            {
+                "item_code": "ITEM001",
+                "item_name": "Item One",
+                "item_quantity": "2.00",
+                "item_price": "200.00",
+                "item_tax": "48.00",
+                "item_amount": "400.00"
+            }
+        ]
+    },
+    "error": []
+}

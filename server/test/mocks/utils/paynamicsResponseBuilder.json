@@ -1,0 +1,46 @@
+{
+	"application": [
+		{
+			"merchantid": [
+				"123t4esrfd"
+			],
+			"request_id": [
+				"123512taesdfa"
+			],
+			"response_id": [
+				"215213tawesf"
+			],
+			"timestamp": [
+				null
+			],
+			"rebill_id": [
+				null
+			],
+			"signature": [
+				"asgasherg23134tPPASFJI125125==asdg125ASFDvsaniknmINU12"
+			],
+			"ptype": [
+				null
+			]
+		}
+	],
+	"responseStatus": [
+		{
+			"response_code": [
+				"asdfgvwe2124"
+			],
+			"response_message": [
+				"asg2wegrv"
+			],
+			"response_advise": [
+				"aseafdvad"
+			],
+			"processor_response_id": [
+				"asdgasgs"
+			],
+			"processor_response_authcode": [
+				"asdgwerq1324rNJKMASVOKOAS"
+			]
+		}
+	]
+}

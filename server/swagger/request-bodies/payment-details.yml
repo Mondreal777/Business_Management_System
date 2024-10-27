@@ -1,0 +1,29 @@
+components:
+  requestBodies:
+    PaymentDetailsBody:
+      description: A JSON object containing the payment details for the payer
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              initialPaymentDetails:
+                type: object
+                properties:
+                  billingId:
+                    type: string
+                    description: Id reference of billing detail
+                    example: QklMTDAwMDAwMDAwMDE=
+                  signature:
+                    type: integer
+                    description: String base64 of billing details
+                    example: PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiID8+PFJlcXVlc3Q+PG9yZGVycz48aXRlbXM+PEl0ZW1zPjxpdGVtbmFtZT5JdGVtIE9uZTwvaXRlbW5hbWU+PHF1YW50aXR5PjE8L3F1YW50aXR5PjxhbW91bnQ+NTYwLjAwPC9hbW91bnQ+PC9JdGVtcz48L2l0ZW1zPjwvb3JkZXJzPjxtaWQ+MDAwMDAwMTYxMDIxNjI1QzFCNkM8L21pZD48cmVxdWVzdF9pZD43Y2JhOTljYmNkZTk5PC9yZXF1ZXN0X2lkPjxpcF9hZGRyZXNzPjEyNy4wLjAuMTwvaXBfYWRkcmVzcz48bm90aWZpY2F0aW9uX3VybD5odHRwOi8vbG9jYWxob3N0OjgwODUvYXBpL3BheW1lbnQtc3VjY2Vzczwvbm90aWZpY2F0aW9uX3VybD48cmVzcG9uc2VfdXJsPmh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wYXltZW50LXN1Y2Nlc3M8L3Jlc3BvbnNlX3VybD48Y2FuY2VsX3VybD5odHRwOi8vbG9jYWxob3N0OjgwODA8L2NhbmNlbF91cmw+PG10YWNfdXJsPjwvbXRhY191cmw+PGRlc2NyaXB0b3Jfbm90ZT48L2Rlc2NyaXB0b3Jfbm90ZT48Zm5hbWU+RGFubnk8L2ZuYW1lPjxsbmFtZT5HdWVyem9uPC9sbmFtZT48bW5hbWU+PC9tbmFtZT48YWRkcmVzczE+VG93ZXIgT25lICYgRXhjaGFuZ2UgUGxhemEsIEF5YWxhIFRyaWFuZ2xlLCBBeWFsYSBBdmVudWUsIE1ha2F0aSBDaXR5LCBNZXRybyBNYW5pbGEgMTIyNjwvYWRkcmVzczE+PGFkZHJlc3MyPjwvYWRkcmVzczI+PGNpdHk+PC9jaXR5PjxzdGF0ZT48L3N0YXRlPjxjb3VudHJ5PlBIPC9jb3VudHJ5Pjx6aXA+PC96aXA+PHNlY3VyZTNkPnRyeTNkPC9zZWN1cmUzZD48dHJ4dHlwZT5zYWxlPC90cnh0eXBlPjxlbWFpbD5kYW5pZWxsZUBmb3JlLXNpZ2h0LnRlY2g8L2VtYWlsPjxwaG9uZT48L3Bob25lPjxtb2JpbGU+OTEyMzQ1Njc4OTwvbW9iaWxlPjxjbGllbnRfaXA+dW5kZWZpbmVkPC9jbGllbnRfaXA+PGFtb3VudD4xMDA4LjAwPC9hbW91bnQ+PGN1cnJlbmN5PlBIUDwvY3VycmVuY3k+PG1sb2dvX3VybD5odHRwczovL2ZvcmUtc2lnaHQudGVjaC93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wOC92aWJlcl9pbWFnZV8yMDIxLTA4LTExXzE0LTA3LTAzLTc1OV9fMl9fYXV0b194Mi1yZW1vdmViZy1wcmV2aWV3LnBuZzwvbWxvZ29fdXJsPjxwbWV0aG9kPjwvcG1ldGhvZD48c2lnbmF0dXJlPjAxZGFiOGVjNmExYTZkYTJiNTE1YWJhNGExMjI3ZDI3ODRiZjUxMDA0YTUxZmVmMjNlZWFmYWNiNmEzZjY1YmY3MWExMWIwZDZiYzgzMDRkNWE0YjVkZWM4YWVmNGZkNGJkOWZlZTJkYzI4YzYyZTY4NDhkZjlhODQzMDBmM2JlPC9zaWduYXR1cmU+PC9SZXF1ZXN0Pg==
+                  grossAmount:
+                    type: integer
+                    description: Total Amount of Payment
+                    example: 1000.00
+                  status:
+                    type: string
+                    description: Payment Status
+                    example: P

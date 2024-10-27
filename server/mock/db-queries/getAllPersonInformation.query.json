@@ -1,0 +1,69 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "first_name": "Allen",
+            "last_name": "Sotto",
+            "age": "21",
+            "sex": "M",
+            "number": 9123456789,
+            "address1": "117 Street",
+            "address2": "Brgy. Ilwas",
+            "city": "Subic",
+            "state": "Zambales",
+            "country": "Philippines"
+        },
+        {
+            "id": 2,
+            "first_name": "John",
+            "last_name": "Doe",
+            "age": "M",
+            "sex": "29",
+            "number": 9123456789,
+            "address1": "181 Street",
+            "address2": "Neverland",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "US"
+        },
+        {
+            "id": 3,
+            "first_name": "Johnny",
+            "last_name": "Depp",
+            "age": "M",
+            "sex": "52",
+            "number": 9123456789,
+            "address1": "Winter",
+            "address2": "Land",
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "US"
+        },
+        {
+            "id": 4,
+            "first_name": "Maria",
+            "last_name": "Magdalena",
+            "age": "F",
+            "sex": "18",
+            "number": 9123456789,
+            "address1": "017 Custodio Street",
+            "address2": "Brgy. Di mo alam",
+            "city": "Kahit saan",
+            "state": "Di mo sure",
+            "country": "Philippines"
+        },
+        {
+            "id": 5,
+            "first_name": "Sarah",
+            "last_name": "Jones",
+            "age": "F",
+            "sex": "24",
+            "number": 9123456789,
+            "address1": "Lot 35 Blk 2",
+            "address2": "Hensonville Village",
+            "city": "Angeles",
+            "state": "Pampanga",
+            "country": "Philippines"
+        }
+    ]
+}

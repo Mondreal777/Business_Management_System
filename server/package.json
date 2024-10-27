@@ -1,0 +1,78 @@
+{
+  "name": "bms",
+  "version": "1.0.0",
+  "description": "Online POS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/unit/run-test.sh **/ava-*",
+    "unit": "ava --serial --verbose --timeout=20000",
+    "start": "nodemon server.js",
+    "dev": "nodemon --inspect -L server.js",
+    "postinstall": "link-module-alias",
+    "cover": "nyc npm run test",
+    "cover:unit": "nyc npm run unit"
+  },
+  "author": "takasu-kun",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "form-data": "^4.0.0",
+    "http-errors": "^2.0.0",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "jwk-to-pem": "^2.0.5",
+    "jwt-decode": "^3.1.2",
+    "link-module-alias": "^1.2.0",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.2",
+    "morgan": "^1.10.0",
+    "mustache": "^4.2.0",
+    "mysql2": "^3.0.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.8",
+    "npm": "^9.3.1",
+    "nyc": "^15.1.0",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.1",
+    "querystring": "^0.2.1",
+    "sinon": "^15.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0",
+    "winston": "^3.8.2",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "ava": "^5.1.1",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.20"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "files": [
+      "test/unit/**/ava-*"
+    ],
+    "timeout": "20s"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text",
+      "html",
+      "json-summary",
+      "json"
+    ]
+  },
+  "_moduleAliases": {
+    "~": "."
+  }
+}
